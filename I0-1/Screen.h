@@ -20,6 +20,10 @@ typedef enum Color {
 	VIOLET,			// 13
 	YELLOW,			// 14
 	WHITE,			// 15
+	PINK,
+	HOT_PINK,
+	ORANGE,
+	LIME,
 } COLOR;
 
 int static level;
