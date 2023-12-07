@@ -279,7 +279,8 @@ void EndGameFrame() {
 	textcolor(RED);
 	for (int i = 7; i > 1; i--) {
 		GotoXY(BlockStartX, BlockStartY + 1);
-		printf("게임 종료 ! ! !");
+		printf("게임 종료 ! ! ! \n");
+		printf("다시 도전 ! ! !");
 		GotoXY(BlockStartX - 4, BlockStartY + 2);
 		printf("시작화면 %d초 전!!", i/2);
 		Sleep(300);
