@@ -24,7 +24,7 @@ void GameTitle() {
 	int TETRIS_Y = 5;
 	int picture_X = TETRIS_X + 5 * 2;
 	int picture_Y = TETRIS_Y + 7;
-	char introduce[20] = { "BY.YongWunKim" };
+	char introduce[20] = { "BY.OhGeumBin" };
 
 	GotoXY(4, 4);
 	int tetris[5][24] = {
