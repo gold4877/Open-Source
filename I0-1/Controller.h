@@ -35,9 +35,9 @@ enum Keys {
 };
 
 typedef enum gameSpeed {
-	easy = 230,				// 게임 난이도 쉬움
-	normal = 170,			// 게임 난이도 보통
-	hard = 150				// 게임 난이도 어려움
+	easy = 200,				// 게임 난이도 쉬움
+	normal = 150,			// 게임 난이도 보통
+	hard = 100				// 게임 난이도 어려움
 }SPEED;
 
 enum blockProperty {
