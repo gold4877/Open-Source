@@ -146,6 +146,7 @@ void InGameFrame() {
 	textcolor(RED);
 	for (int i = 7; i > 1; i--) {
 		GotoXY(46, 14);
+		printf("곧 게임을 시작합니다 ! ! !");
 		printf("게임 시작 %d초 전...!", i / 2);
 		Sleep(300);
 		GotoXY(46, 14);
