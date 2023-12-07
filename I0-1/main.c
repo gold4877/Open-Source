@@ -5,7 +5,7 @@
 
 void main() {
 	CursorView(false);
-	system("mode con cols=76 lines=28 | title 창의실무프로젝트_테트리스 실습");
+	system("mode con cols=76 lines=28 | title 오픈 소스 깃 업로드 테스트 ");
 	/*
 	아래의 PlaySound 메서드는 .wav 음악 파일을 재생시켜주는 함수입니다.
 	Controller.h 헤더파일에 include한 mmsystem.h 헤더파일을 통해 .wav음악을 출력시키는데
