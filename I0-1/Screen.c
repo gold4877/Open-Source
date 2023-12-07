@@ -156,7 +156,7 @@ void InGameFrame() {
 void ShowNextBlock() {
 	GotoXY(52, 0 + 11);
 	textcolor(DARK_VOILET);
-	printf("다음블럭");
+	printf("다음블럭 모형");
 	textcolor(WHITE);
 
 	for (int y = 0; y < 6; y++) {
